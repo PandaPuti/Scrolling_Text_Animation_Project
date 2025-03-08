@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #1e398d;
+  
 }
 
 .content{
@@ -10,19 +10,23 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 160px;
+  height: 100%;
+  width: 100%;
   overflow:hidden;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   line-height: 40px;
   color: #ecf0f1;
+  background-color: #1e398d;
+  background-image: linear-gradient(#1e398d, #017bbf, #1e398d);
+  align-content: center;
 
   &__container {
     font-weight: 600;
     overflow: hidden;
     height: 40px;
-    padding: 0 40px;
-
+    padding: 0 150px 0 150px;;
+        
     &__text {
       display: inline;
       float: left;
